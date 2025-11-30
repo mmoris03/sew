@@ -5,3 +5,26 @@
 */
 
 /* Estilos generales del proyecto MotoGP-Desktop */
+
+body {
+    /* tipografía */
+    font-family: Helvetica, Arial, sans-serif;
+    /* color de fondo para todos los elementos */
+    background-color: #FFFFFF;
+    /* color de primer plano para todos los elementos */
+    color: #072F4B;
+}
+
+/* Advertencia debida a que color se hereda de body */
+header {
+    /* color de fondo del elemento <header> */
+    background-color: #072F4B;
+}
+
+/* Advertencia debida a que background-color se hereda de body*/
+h1,
+nav {
+    /* color del texto del elemento <h1> y <nav> */
+    color: #FFFFFF;
+
+}
