@@ -15,23 +15,21 @@ body {
     color: #072F4B;
 }
 
-/* Advertencia debida a que color se hereda de body */
 header {
     /* color de fondo del elemento <header> */
-    background-color: #072F4B;
+    background-color: #FFFFFF;
 }
 
-/* Advertencia debida a que background-color se hereda de body*/
 h1,
 nav {
-    /* color del texto del elemento <h1> y <nav> */
-    color: #FFFFFF;
-
+    /* color del texto del elemento <h1> y el <nav> */
+    color: #072F4B;
 }
 
 /* Estilo para el elemento activo del menú (clase .active) */
 nav a.active {
-    color: #FFD166; /* color destacado (amarillo-anaranjado) */
+    color: #072F4B; /* color del enlace activo */
+    background-color: #FFD166; /* recuadro amarillo para el enlace activo */
     font-weight: 700;
     text-decoration: none;
 }
