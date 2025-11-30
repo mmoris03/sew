@@ -6,6 +6,7 @@ header {
 @media (min-width: 320px) and (max-width: 799px) {
     /* Estilos para que <header>, <h1>, <nav> y los elementos <a> del <nav> se muestren en vertical */
 	header, h1, nav, nav a {
+        display: flex;
 		flex-direction: column;
 	}
 
