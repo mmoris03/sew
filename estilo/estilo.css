@@ -28,3 +28,20 @@ nav {
     color: #FFFFFF;
 
 }
+
+/* Estilo para el elemento activo del menú (clase .active) */
+nav a.active {
+    color: #FFD166; /* color destacado (amarillo-anaranjado) */
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Estilo para las migas de navegación */
+header + p:first-of-type {
+    font-size: 0.9em;
+}
+
+/* Estilo para los enlaces del <header> */
+header a {
+    text-decoration-line: none;
+}

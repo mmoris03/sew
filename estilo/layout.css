@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width: 320px) and (max-width: 799px) {
+    /* Estilos para que <header>, <h1>, <nav> y los elementos <a> del <nav> se muestren en vertical */
+	header, h1, nav, nav a {
+		flex-direction: column;
+	}
+
+    /* Estilo para ocultar las migas de navegación */
+    header + p:first-of-type {
+        display: none;
+    }
+
+    /* Estilo para garantizar la adaptabilidad de los elementos multimedia */
+    video, audio {
+        width: 100%;
+        height: auto;
+    }
+
+    article h2 + img {
+        width: 100%;
+        height: auto;
+    }
+}
