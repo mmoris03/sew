@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
     <link rel="icon" href="multimedia/favicon-gp.ico" />
+    <script src="js/ciudad.js"></script>
 </head>
 
 <body>
@@ -30,7 +31,12 @@
     </header>
     <p>Estás en: <a href="index.html">Inicio</a> | <strong>Meteorología</strong></p>
     <h2>Meteorología de MotoGP-Desktop</h2>
-    <p>en desarrollo</p>
+    <script>var ciudad = new Ciudad("Barcelona", "España", "Barcelonés");</script>
+    <script>ciudad.escribirNombrePais();</script>
+    <script>ciudad.escribirInfoSecundaria();</script>
+    <script>ciudad.escribirCoordenadas();</script>
+    <script>ciudad.getMeteorologiaCarrera();</script>
+    <script>ciudad.getMeteorologiaEntrenos();</script>
 </body>
 
 </html>

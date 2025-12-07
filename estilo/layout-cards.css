@@ -1,0 +1,19 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5em;
+}
+
+main h2 {
+    grid-column: 1/-1;
+}
+
+main p:first-of-type {
+    grid-column: 1/-1;
+}
+
+@media (min-width: 320px) and (max-width: 799px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
